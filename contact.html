@@ -13,7 +13,7 @@
 	<title>COMP1073 - Lesson 6</title>
 </head>
 
-<body id="about">
+<body id="contact">
 
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
@@ -33,9 +33,9 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="index.html">About Me</a></li>
+					<li><a href="index.html">About Me</a></li>
 					<li><a href="projects.html">My Projects</a></li>
-					<li ><a href="contact.html">Contact Me</a></li>
+					<li class="active"><a href="contact.html">Contact Me</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -45,9 +45,27 @@
 
 	<main class="container" id="mainContent">
 		<div class="col-md-8 col-md-offset-2">
-		<h1>About Me...</h1>
-		
-		
+		<h1>Contact Me</h1>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="email" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Password</label>
+						<input type="password" class="form-control" id="password" placeholder="Password">
+					</div>
+					<div class="checkbox">
+						<label>
+							<input id="checkMeOut" type="checkbox" checked="checked"> Check me out
+						</label>
+					</div>
+					<button type="button" class="btn btn-default" id="submitButton">Submit</button>
+				</form>
+			</div>
+		</div 
 		</div>
 	</main>
 
